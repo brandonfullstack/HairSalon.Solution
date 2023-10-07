@@ -31,7 +31,7 @@ Note: An installation of the .NET SDK is required in order to run this applicati
     ```json
     {
       "ConnectionStrings": {
-          "DefaultConnection": "Server=localhost;Port=3306;database=ryans_todo_from_section3;uid=[YOUR-USERNAME];pwd=[YOUR-MYSQL-PASSWORD];"
+          "DefaultConnection": "Server=localhost;Port=3306;database=brandon_wright;uid=[YOUR-USERNAME];pwd=[YOUR-MYSQL-PASSWORD];"
       }
     }
     ```
