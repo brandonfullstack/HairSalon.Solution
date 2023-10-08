@@ -10,14 +10,14 @@
 
 @using (Html.BeginForm())
 {
-    @Html.HiddenFor(model => model.ClientId)
+  @Html.HiddenFor(model => model.ClientId)
 
-    @Html.LabelFor(model => model.Description)
-    @Html.EditorFor(model => model.Description)
+  @Html.LabelFor(model => model.Description)
+  @Html.EditorFor(model => model.Description)
 
-    @Html.LabelFor(model => model.Stylist)
-    @Html.DropDownList("StylistId")
+  @Html.LabelFor(model => model.Stylist)
+  @Html.DropDownList("StylistId")
 
-    <input type="submit" value="Save" />
+  <input type="submit" value="Save" />
 }
 <p>@Html.ActionLink("Back to list", "Index")</p>
