@@ -27,8 +27,8 @@ else
 <p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
 
 @* Form below sends Post request to the Delete route if you want to define that route as [HttpPost] *@
-@* @using(Html.BeginForm("Delete", "Categories", new {id = Model.CategoryId}, FormMethod.Post )) 
+@* @using(Html.BeginForm("Delete", "Stylists", new {id = Model.StylistId}, FormMethod.Post )) 
 {
-  <input type="submit" value="Delete This Category">
+  <input type="submit" value="Delete This Stylist">
 } *@
 <p>@Html.ActionLink("Back to list", "Index")</p>
